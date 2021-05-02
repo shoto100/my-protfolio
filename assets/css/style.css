@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  background-color: #09192f;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-btn1 {
+  border: 1px solid green;
+  color: green !important;
+}
+
+.custom-btn1:hover {
+  background-color: green;
+  color: #fff !important;
+}
+
+.custom-btn1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.custom-btn2 {
+  border: 1px solid #33c6c7;
+  color: #33c6c7 !important;
+}
+
+.custom-btn2:hover {
+  background-color: #33c6c7;
+  color: #fff !important;
+}
+
+.custom-btn2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-wrapper .nav-logo {
+  font-size: 32px;
+}
+
+.navbar-wrapper a {
+  color: #fff !important;
+}
+
+.navbar-wrapper li {
+  margin-left: 25px;
+}
+
+#header-wrapper {
+  height: 100vh;
+}
+
+#header-wrapper .header-content-wrap .header-content {
+  padding-top: 200px;
+}
+
+#header-wrapper .header-content-wrap p {
+  padding-bottom: 20px;
+}
+
+#project-wrapper {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#project-wrapper h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+#project-wrapper h1 span {
+  color: #33c6c7;
+}
+
+#project-wrapper h6 span {
+  background-color: #4b5769;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+#project-wrapper h4 {
+  margin: 30px 0 40px;
+}
+
+#project-wrapper p {
+  color: #ccc;
+}
+
+#project-wrapper img {
+  height: 350px;
+  width: 700px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+#project-wrapper a {
+  color: #33c6c7;
+}
+
+#email-wrapper {
+  padding: 40px 0;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#email-wrapper h6 {
+  color: #33c6c7;
+  margin-bottom: 20px;
+}
+
+#email-wrapper h1 {
+  margin-bottom: 20px;
+}
+
+#email-wrapper p {
+  padding: 0 300px;
+  margin-bottom: 20px;
+}
+
+#footer-wrapper {
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+#footer-wrapper a {
+  color: #33c6c7;
+}
+
+#footer-wrapper ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
+  font-size: 32px;
+}
+
+#footer-wrapper ul li a {
+  color: #33c6c7;
+}
+/*# sourceMappingURL=style.css.map */
