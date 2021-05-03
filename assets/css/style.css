@@ -14,33 +14,18 @@ html {
 }
 
 .custom-btn1 {
-  border: 1px solid green;
-  color: green !important;
+  border: 1px solid #33c6c7;
+  color: #33c6c7 !important;
 }
 
 .custom-btn1:hover {
-  background-color: green;
+  background-color: #33c6c7;
   color: #fff !important;
 }
 
 .custom-btn1 a {
   text-decoration: none;
-  color: white;
-}
-
-.custom-btn2 {
-  border: 1px solid #33c6c7;
-  color: #33c6c7 !important;
-}
-
-.custom-btn2:hover {
-  background-color: #33c6c7;
-  color: #fff !important;
-}
-
-.custom-btn2 a {
-  text-decoration: none;
-  color: white;
+  color: white !important;
 }
 
 .navbar-wrapper .nav-logo {
@@ -55,7 +40,7 @@ html {
   margin-left: 25px;
 }
 
-#header-wrapper {
+#header-wrapper .header-content-wrap {
   height: 100vh;
 }
 
@@ -65,6 +50,52 @@ html {
 
 #header-wrapper .header-content-wrap p {
   padding-bottom: 20px;
+}
+
+#header-wrapper .about-content-wrap .left {
+  padding-left: 100px;
+}
+
+#header-wrapper .about-content-wrap .right {
+  padding-top: 30px;
+}
+
+#header-wrapper .about-content-wrap h2 {
+  margin-bottom: 20px;
+}
+
+#header-wrapper .about-content-wrap h2 span {
+  font-size: 26px;
+  color: #33c6c7;
+}
+
+#header-wrapper .about-content-wrap p {
+  margin-bottom: 20px;
+}
+
+#header-wrapper .about-content-wrap img {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+#header-wrapper .about-content-wrap .about-title {
+  padding: 50px 50px 0px;
+}
+
+#header-wrapper .about-content-wrap .about-title h4 {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+
+#header-wrapper .about-content-wrap .about-title h4 span {
+  border-bottom: 2px solid #33c6c7;
+  border-radius: 1px;
+}
+
+#header-wrapper .about-content-wrap .about-title h6 span {
+  background-color: #4b5769;
+  padding: 5px 10px;
+  border-radius: 6px;
 }
 
 #project-wrapper {
@@ -144,5 +175,29 @@ html {
 
 #footer-wrapper ul li a {
   color: #33c6c7;
+}
+
+.project-content-wrap {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 50px;
+}
+
+.project-content-wrap h2 {
+  text-align: center;
+}
+
+.project-content-wrap h2 span {
+  color: #33c6c7;
+}
+
+.project-content-wrap .card {
+  background-color: #172a45;
+  margin-top: 24px;
+}
+
+.project-content-wrap img {
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
