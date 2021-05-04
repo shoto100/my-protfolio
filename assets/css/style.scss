@@ -205,11 +205,98 @@ $blue: #33c6c7;
             color: $blue;
         }
     }
+    h4 {
+        a {
+            color: $blue;
+        }
+    }
     .card {
         background-color:#172a45;
         margin-top: 24px;
     }
     img {
         height: 200px
+    }
+    h6 {
+        span {
+            background-color: #4b5769;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size:13px;
+        }
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+.blog-content-wrap {
+    justify-content: center;
+    padding: 50px 50px;
+    text-align: center;
+
+    h2 {
+
+        span {
+            color: $blue;
+        }
+    }
+    .card {
+        background-color:#172a45;
+        margin-top: 24px;
+    }
+    img {
+        height: 200px
+    }
+    h6 {
+        span {
+            background-color: #4b5769;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size:13px;
+        }
+    }
+    p {
+        font-size: 14px;
+
+        a {
+            color: $blue;
+        }
+    }
+}
+.contact-content-wrap {
+    padding: 50px 50px;
+    
+    
+    .contact-form {
+        background-color:#172a45;
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+        padding: 50px 30px;
+        border-radius: 6px;
+
+        
+        textarea {
+            width: 440px;
+            border-radius: 6px;
+            resize: none;
+
+            &::placeholder {
+                padding: 10px;
+            }
+        }
+        p {
+            a {
+                color: $blue;
+            }
+        }
+    }
+    h2 {
+        text-align: center;
+
+        span {
+            color: $blue;
+        }
     }
 }
